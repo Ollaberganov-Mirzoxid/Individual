@@ -193,9 +193,6 @@ footer {
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 @media (max-width: 1080px) {
-    body{
-        background: #ffc107;
-    }
     .ijaralar, .mulklar{
         width:100%;
     }
