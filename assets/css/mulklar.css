@@ -1,0 +1,196 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Header styles */
+header {
+    position: sticky;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Navigation styles */
+nav {
+    position: sticky;
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffc107; /* Hover rangi (masalan, saralanish rangi) */
+}
+
+.active{
+    color: #ffc107;
+}
+
+/* Dropdown styles */
+.dropdown .dropbtn img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: -15px;
+}
+.dropdown .dropbtn{
+    font-size: 25px;
+    font-weight: bold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1,
+.dropdown-content2,
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #343a40;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1{
+    margin-left: -96px;
+    min-width: 300px;
+}
+
+.dropdown-content2{
+    margin-left: -62px;
+    min-width: 300px;
+}
+
+.dropdown-content3{
+    min-width: 100%;
+}
+
+.dropdown-content1 a,
+.dropdown-content2 a,
+.dropdown-content3 a {
+    color: #f1f1f1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content3 {
+    display: block;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/*index.php ijara-mulk css*/
+.btns{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.ijara-mulk h1{
+    color:cornflowerblue;
+    text-align: center;
+}
+
+.ijara-mulk img{
+    width: 250px;
+    height: 250px;
+}
+
+.ijara-mulk h2,h3,p{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.ijara-mulk p{
+    font-size: 20px;
+}
+
+.btns h3{
+    text-align: center;
+}
+
+.mulklar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.img-title{
+    border: 1px solid #343a40;
+    width: 50%;
+    padding: 25px;
+    display: flex;
+}
+.malumot{
+    display: flex;
+    justify-content: space-between;
+ }
+.malumot p{
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}

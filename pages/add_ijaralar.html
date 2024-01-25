@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uz">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-d3NkA6Of8Cmrh0jyXPlP1Y6vEagXiaTt8y7EaegS2U3J+jWzWlZOqd61zI5lYFOoh8" crossorigin="anonymous">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/add_ijara.css">
+        <title>E'lon berish / Ijaralar</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="color:cornflowerblue;">Kvartira ijaraga olish va Ko'chmas mulklar savdosi</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Asosiy</a></li>
+                    <li class="dropdown">
+                        <div class="dropbtn">
+                            <p>E'lonlar</p>
+                        </div>
+                        <div class="dropdown-content1">
+                            <a href="ijaralar.html">ijaralar</a>
+                            <a href="mulklar.html">Ko'chmas mulklar</a>
+                        </div>
+                    </li> 
+                    <li class="dropdown">
+                        <div class="dropbtn">
+                            <p class="active">E'lon Berish</p>
+                        </div>
+                        <div class="dropdown-content2">
+                            <a href="add_ijaralar.html">ijaralar</a>
+                            <a href="add_mulklar.html">Ko'chmas mulklar</a>
+                        </div>
+                    </li>               
+                    <li class="dropdown">
+                        <div class="dropbtn">
+                            <img src="../assets/img/user.png" alt="Foydalanuvchi rasmi">
+                            Ollaberganov Mirzoxid
+                        </div>
+                        <div class="dropdown-content3">
+                            <a href="profil.html">Profil</a>
+                            <a href="../pages/logout.php">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2 class="title">E'lon Berish/<b class="active">ijaralar</b></h2>
+            <div class="form">
+                <form action="">
+                    <div class="form-in">
+                        <div class="form-img">
+                            <div class="img">
+                                <label for="rasm">1-Rasm Tanlang</label>
+                                <input type="file" id="rasm">
+                            </div>
+                            <div class="img">
+                                <label for="rasm">2-rasm Tanlang</label>
+                                <input type="file" id="rasm">
+                            </div>
+                            <div class="img">
+                                <label for="rasm">3-rasm Tanlang</label>
+                                <input type="file" id="rasm">
+                            </div>
+                            <div class="img">
+                                <label for="rasm">4-rasm Tanlang</label>
+                                <input type="file" id="rasm">
+                            </div>
+                        </div>
+                        <div class="form-title">
+                            <div class="input-text">
+                                <label class="col-25" for="">Telfon raqam</label>
+                                <input class="col-50" type="text" name="telfon_raqam"
+                                placeholder="Telfon raqamingizni kiriting.">
+                            </div>
+                            <div class="input-text">
+                                <label class="col-25" for="">Telegram nik</label>
+                                <input class="col-50" type="text" name="telegram_nik"
+                                placeholder="Telegram nikingizni kiriting.">
+                            </div>
+                            <div class="textarea">
+                                <label class="col-25" for="">Ma'lumot</label>
+                                <textarea class="col-50" name="malumot" rows="5"
+                                placeholder="Kvartira haqida ma'lumot kiriting."></textarea>
+                            </div>
+                            <div class="textarea">
+                                <label class="col-25" for="">Manzil</label>
+                                <textarea class="col-50" name="manzil" rows="5"
+                                placeholder="Kvartira manzilini kiriting."></textarea>
+                            </div>
+                            <div class="input-text">
+                                <label class="col-25" for="">Narxi</label>
+                                <input class="input-text-narx" type="text" name="narx"
+                                placeholder="Kvartira narxini kiriting.">
+                                <select class="select" name="narxi" id="narxi">
+                                    <option value="UZS">UZS</option>
+                                    <option value="USD">USD</option>
+                                    <option value="RUB">RUB</option>
+                                </select>
+                                <input type="submit" value="Saqlash">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            2024 Sizning Saytingiz. Barcha huquqlar himoyalangan.
+        </footer>
+    </body>
+</html>
